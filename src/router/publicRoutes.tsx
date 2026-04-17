@@ -1,5 +1,8 @@
+import { AuthLayout } from "@/components/layouts/AuthLayout"
+
 export default {
   path: "/",
+  element: <AuthLayout />,
   children: [
     {
       index: true,
